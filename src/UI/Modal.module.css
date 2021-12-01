@@ -1,0 +1,40 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.modal-content {
+  position: fixed;
+  z-index: 100;
+  overflow: hidden;
+  bottom: 0;
+  background-color: #fefefe;
+  width: 100%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: rgb(161, 139, 119);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-body {
+  padding: 2px 16px;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: rgb(161, 139, 119);
+  color: white;
+}
