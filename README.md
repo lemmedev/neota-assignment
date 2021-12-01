@@ -20,9 +20,8 @@ You will also see any lint errors in the console.
 
 ### `npm run build`
 
-\*_ This project requires api which are http_.\
-When deploying to a https\* domain plz make sure to edit the site settings and allow \
-and insecure content. This will allow the browser to request over http.
+This project requires api which are http\*
+When deploying to a https\* domain plz make sure to edit the site settings and allow insecure content. This will allow the browser to request over https\*
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
